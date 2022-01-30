@@ -1,12 +1,10 @@
-# Read Me First
-The following was discovered as part of building this project:
-
-* 
-
 # Getting Started
+Maven Lifecycle compile to generate the model
 
 ### Description
 
-* Does
+* Uses Avro Maven plugin to generate Avro-friendly model classes
+* Uses Avro Serializer (see configuration under application.yml)
+* Produces data to avro_pos_topic through a scheduler 
 
 
