@@ -1,0 +1,12 @@
+{
+  "namespace": "com.kat.avropossimulator.model",
+  "type": "record",
+  "name": "DeliveryAddress",
+  "fields": [
+    {"name": "address_line","type": ["null","string"]},
+    {"name": "city","type": ["null","string"]},
+    {"name": "country","type": ["null","string"]},
+    {"name": "post_code","type": ["null","string"]},
+    {"name": "contact_number","type": ["null","string"]}
+  ]
+}

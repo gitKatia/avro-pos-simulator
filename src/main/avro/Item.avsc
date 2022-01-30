@@ -1,0 +1,12 @@
+{
+  "namespace": "com.kat.avropossimulator.model",
+  "type": "record",
+  "name": "Item",
+  "fields": [
+    {"name": "item_code","type": ["null","string"]},
+    {"name": "item_description","type": ["null","string"]},
+    {"name": "item_price","type": ["null","double"]},
+    {"name": "item_quantity","type": ["null","int"]},
+    {"name": "total_value","type": ["null","double"]}
+  ]
+}

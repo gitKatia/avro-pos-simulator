@@ -1,0 +1,20 @@
+{
+  "namespace": "com.kat.avropossimulator.model",
+  "type": "record",
+  "name": "PosInvoice",
+  "fields": [
+    {"name": "invoice_no","type": ["null","string"]},
+    {"name": "created_at","type": ["null","long"]},
+    {"name": "customer_card_no","type": ["null","string"]},
+    {"name": "total_amount","type": ["null","double"]},
+    {"name": "item_quantity","type": ["null","int"]},
+    {"name": "payment_method","type": ["null","string"]},
+    {"name": "taxable_amount","type": ["null","double"]},
+    {"name": "store_id","type": ["null","string"]},
+    {"name": "pos_id","type": ["null","string"]},
+    {"name": "customer_type","type": ["null","string"]},
+    {"name": "delivery_type","type": ["null","string"]},
+    {"name": "delivery_address","type": ["null","DeliveryAddress"]},
+    {"name": "invoice_items","type": {"type": "array", "items": "Item"}}
+  ]
+}
